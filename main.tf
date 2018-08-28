@@ -3,7 +3,7 @@ resource "azurerm_resource_group" "lab1" {
   location = "West Europe"
 
   tags {
-    environment = "Training"
+    environment = "training"
   }
 }
 
